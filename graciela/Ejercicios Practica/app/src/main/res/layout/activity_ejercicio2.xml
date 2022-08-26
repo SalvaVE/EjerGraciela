@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese monto a invertir: "
+        android:translationX="130dp" />
+
+    <EditText
+        android:id="@+id/edtnu"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:translationX="40dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese los meses a invertir: "
+        android:translationX="130dp"
+        android:translationY="15dp" />
+
+    <EditText
+        android:id="@+id/edtnu1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:translationX="40dp"
+        android:translationY="0dp" />
+
+    <TextView
+        android:id="@+id/textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ganancias de inversion: "
+        android:textSize="16dp"
+        android:translationY="160dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="CALCULAR"
+        android:translationX="150dp"
+        android:translationY="30dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

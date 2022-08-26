@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="800dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cuantos softwares vendio en la semana? "
+        android:textSize="20dp"
+        android:translationX="20dp"
+        android:translationY="70dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/edtn"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:translationX="10dp"
+        android:translationY="100dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/tev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Costo real del software: "
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/tev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Costo de ventas: "
+        android:translationY="230dp" />
+
+    <TextView
+        android:id="@+id/tev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Ganancias: "
+        android:translationY="260dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="CALCULAR"
+        android:translationX="160dp"
+        android:translationY="60dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
